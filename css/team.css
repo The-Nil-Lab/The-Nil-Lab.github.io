@@ -1,10 +1,46 @@
+
+.people .my_card img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin: 0 auto 2vh auto;
+}
+
+.people .my_card {
+    border: none;
+    box-shadow: none;
+}
+
+.people .my_card .card-body {
+    padding-bottom: 0;
+}
+.people .my_card .card-title{
+    margin-bottom: 10px;
+}
+
+.people .my_card .card-text{
+    font-size:  calc(1rem + 0.1vw);
+}
+
+.people .my_card .card-footer {
+    padding-top: 1px;
+    background-color: transparent;
+    border: none;
+}
+
+.know_more_button {
+    display: block;
+    color: #2ed8d3;
+}
+
+
 @media (max-width: 768px) {
 
     #mir .right-block, #ankita .right-block, #rahul .right-block {
         order: 1;
     }
 
-    #mir .left-block, #ankita .left-block, #rahul .left-block{
+    #mir .left-block, #ankita .left-block, #rahul .left-block {
         order: 2;
     }
 

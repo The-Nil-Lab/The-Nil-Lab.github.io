@@ -240,6 +240,19 @@ body {
     height: 70px
 }
 
+.block .block-subheading {
+    font-family: Poppins, sans-serif;
+    color: #555;
+    font-size: calc(1.1rem + 0.3vw);
+    padding-top: 0.5vh;
+}
+
+.block .block-subtag {
+    font-family: Nunito, sans-serif;
+    color: #666;
+    font-size: calc(1rem + 0.1vw);
+}
+
 @media (max-width: 768px) {
     .block {
         padding-top: 1rem;
@@ -284,13 +297,14 @@ body {
 
 .my_card .card-body .card-text {
     font-family: Nunito, sans-serif;
-    font-size:  calc(0.85rem + 0.1vw);
+    font-size:  calc(0.9rem + 0.1vw);
 }
 
 .my_card .card-body .card-title {
     font-family: Poppins, serif;
     font-weight: bold;
     font-size: calc(1.2rem + 0.3vw);
+    text-align: center; !important;
 }
 
 .my_card_group > [class*="col"] {
