@@ -66,7 +66,46 @@
 
 
 <!--Navbar starts-->
-<div w3-include-html="parts/navbar.html"></div>
+<header>
+
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-semi-dark bottom-shadow my-navbar">
+
+        <a class="navbar-brand" href="index.html"><img alt="nil logo" class="img-fluid" src="images/nil-logo.png"></a>
+        <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"
+                data-target="#navbarCollapse" data-toggle="collapse" type="button">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="approaches.html">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="journal.html">Journal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#contat_us">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+</header>
 <!--Navbar ends-->
 
 
@@ -262,16 +301,101 @@
 
 </main>
 
-<!--footer starts-->
-<div w3-include-html="parts/footer.html"></div>
-<!--footer ends-->
+<footer>
+    <div class="container-fluid my-footer block-bg-semi-dark block" style="padding: 5vh 5vw 1vh 5vh;">
+        <div class="row">
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/main.js"></script>
-<script>
-    includeHTML()
-</script>
+            <!--NIL Detail-->
+            <div class="col-md-5 align-self-center about_nil">
+                <div class="media">
+
+                    <div class="media-body align-self-center">
+                        <img class="img-fluid align-self-center mb-2" src="images/nil-logo2.png">
+                        <h5 class="mt-1 mb-1 font-weight-bold">Nil is the design lab at NRMC</h5>
+                        NRMC is a development advisory with 15
+                        years of on-ground experience in catalysing
+                        high-impact solutions in India, south, and
+                        south-east Asia.
+                    </div>
+                </div>
+            </div>
+
+            <!--contacts-->
+            <div class="col-md-4 pl-lg-5 pl-sm-0 py-5 align-self-center">
+                <ul class="list-unstyled contacts">
+                    <li class="media">
+                        <div class="media-body align-self-center">
+                            <h5 class="mt-0 mb-1 font-weight-bold"><i class="fas fa-map-pin align-self-center mr-1"></i>
+                                Address</h5>
+                            <a class="footer-links" href="https://goo.gl/maps/wBBMkX1w51KA8miM7"
+                               target="_blank">
+                                        <span class="">
+                                            No. 55, Bhawani Kunj, <br>
+                                            Behind Sector-D/2, <br>
+                                            Vasant Kunj,  Delhi - 110070
+                                        </span>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="media my-2">
+
+                        <div class="media-body align-self-center">
+                            <h5 class="mt-0 mb-1 font-weight-bold"><i
+                                    class="fas fa-phone-square align-self-center mr-1"></i> Phone</h5>
+                            <a class="footer-links" href="tel:+9111 2689 5338" target="_blank">
+                                <span class="">+911126895338</span>
+                            </a>
+                        </div>
+
+                    </li>
+                    <li class="media">
+                        <div class="media-body align-self-center">
+                            <h5 class="mt-0 mb-1 font-weight-bold"> <i class="fas fa-envelope align-self-center mr-1"></i> Email</h5>
+                            <a class="footer-links" href="mailto:mrinalini@nrmc.co" target="_blank">
+                                <span class="">mrinalini@nrmc.co</span>
+                            </a>
+                        </div>
+
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--links-->
+            <div class="col-md-3 col-sm-12 align-self-center">
+                <ul class="list-unstyled links text-sm-center text-lg-left">
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="approaches.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a href="journal.html">Journal</a>
+                    </li>
+                    <li>
+                        <a href="team.html">Team</a>
+                    </li>
+                    <li>
+                        <a href="index.html#contat_us">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!--copyright and back to top-->
+        <div class="row text-center mt-4">
+            <div class="col-6 small">&copy; 2020 NRMC India</div>
+            <div class="col-6"><a class="small" href="#">Back to top</a></div>
+        </div>
+    </div>
+</footer>
+
 <script crossorigin="anonymous"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -281,6 +405,5 @@
 <script crossorigin="anonymous"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script crossorigin="anonymous" src="https://kit.fontawesome.com/cdc9a3f535.js"></script>
 </body>
 </html>
