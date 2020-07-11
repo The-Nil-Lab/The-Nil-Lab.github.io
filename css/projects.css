@@ -1,7 +1,43 @@
-.jumbotron {
-    background-image: url("../images/projects.webp");
-}
 .my_card .card-body {
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.block .block-subheading {
+    font-family: Poppins, sans-serif;
+    color: #555;
+    font-size: calc(1.1rem + 0.3vw);
+    padding-top: 0.5vh;
+}
+
+.block .block-subtag {
+    font-family: Nunito, sans-serif;
+    color: #666;
+    font-size: calc(1rem + 0.1vw);
+}
+
+.project_x .block-text {
+    color: #444;
+    padding: 10px 0.1vw;
+}
+
+.project_x {
+    padding-bottom: 10px;
+}
+.our_work_footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.our_work_footer .my_card .card-title {
+    font-size: calc(1rem + 0.2vw);
+}
+
+.our_work_footer .my_card .card-body {
+    margin:0;
+    padding: 2vh 1vw 0 2vh;
+}
+.our_work_footer .my_card .card-footer {
+    padding: 0;
+    border: none;
 }
