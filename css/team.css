@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+
+    #mir .right-block, #ankita .right-block, #rahul .right-block {
+        order: 1;
+    }
+
+    #mir .left-block, #ankita .left-block, #rahul .left-block{
+        order: 2;
+    }
+
+}
