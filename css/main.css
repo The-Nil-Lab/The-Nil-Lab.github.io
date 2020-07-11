@@ -229,6 +229,13 @@ body {
     padding-bottom: 2rem;
 }
 
+ol li {
+    font-family: Nunito, sans-serif;
+    color: #303030;
+    line-height: 1.67;
+    font-size: calc(1rem + 0.1vw);
+}
+
 .block .block-learn-more {
     font-size: 2rem;
     color: #303030;
