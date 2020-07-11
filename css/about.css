@@ -1,0 +1,24 @@
+.jumbotron {
+    background-image: url("../images/bg-about.webp");
+}
+
+.block .quote_lemon {
+    font-family: 'EB Garamond', serif;
+    font-size: calc(1.1rem + 1vw);;
+}
+
+.quote_section img {
+    filter: brightness(0.8);
+}
+
+@media (max-width: 768px) {
+
+    .our_story .right-block, .approach .right-block, .contact_form .right-block {
+        order: 1;
+    }
+
+    .our_story .left-block, .approach .left-block, .contact_form .left-block {
+        order: 2;
+    }
+
+}
