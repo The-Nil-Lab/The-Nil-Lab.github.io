@@ -5,13 +5,6 @@ body {
     font-size: 100%;
 }
 
-@media (pointer: coarse) {
-    .container a {
-        padding: .8em;
-    }
-}
-
-
 .poppins {
     font-family: Poppins, sans-serif;
 }
@@ -324,4 +317,5 @@ ol li {
     margin-bottom: 2.5vh;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center; !important;
 }

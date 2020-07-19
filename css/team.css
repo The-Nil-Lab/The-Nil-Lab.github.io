@@ -25,6 +25,8 @@
 
 .modal .block-text {
     padding: 1.5vh 2vw;
+    font-size:  calc(0.95rem + 0.1vw);
+
 }
 
 .know_more_button {
