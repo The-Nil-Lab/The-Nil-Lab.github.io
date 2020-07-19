@@ -1,8 +1,9 @@
 
 .people .my_card img {
-    transition: all 0.2s ease-in;
-    height: 128px;
-    width: 128px;
+    transition: all 0.3s ease-in;
+    height: 256px;
+    width: 256px;
+    filter: grayscale(1);
     border-radius: 50%;
     margin: 0 auto 2vh auto;
 }
